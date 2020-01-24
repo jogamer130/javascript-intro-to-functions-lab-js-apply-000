@@ -15,10 +15,9 @@ function logWhisper(string) {
 }
 
 function sayHiToGrandma(string){
-  var x = string
-  var y = string
-  var z = string
- if ( z === "I love you, Grandma."){
+
+  var z = "I love you Grandma"
+ if ( z === string){
     return "I love you too.";
   }
 }
